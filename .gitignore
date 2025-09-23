@@ -39,3 +39,13 @@
 
 # debug information files
 *.dwo
+
+# Ignorar el directorio de archivos compilados
+bin/
+
+# Ignorar el directorio de configuración del editor VSCode
+.vscode/
+
+# Ignorar archivos objeto que podrían aparecer en el futuro
+*.o
+*.obj
